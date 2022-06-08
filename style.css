@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2vh 20vh;
-  background-color: #26282a;
+  background-color: #181818;
   top: 0;
   left: 0;
   right: 0;
@@ -42,9 +42,11 @@ header {
   color: white;
   font-size: 1.5em;
 }
+
 .headerTitle:hover {
-  color: #ffc72c;
+  color: #006bb6;
 }
+
 .links {
   text-decoration: none;
   color: white;
@@ -66,6 +68,10 @@ header {
   border-radius: 15px;
 }
 
+#git:hover {
+  color: #006bb6;
+}
+
 /*Section 1*/
 
 .topBanner {
@@ -76,6 +82,7 @@ header {
   align-items: center;
   color: white;
   padding: 0 20vh;
+  padding-top: 8vh;
   gap: 7vh;
 }
 
@@ -175,13 +182,61 @@ header {
   font-weight: bold;
 }
 
+/* Section 4 */
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.container {
+  background-color: #1d428a;
+  color: white;
+  height: 25vh;
+  width: 45vw;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+  border: 5px solid #ffc72c;
+  font-size: 3vh;
+  padding: 3vw;
+  box-sizing: border-box;
+}
+
+button {
+  width: 8vw;
+  height: 4vw;
+  border-radius: 6px;
+  background-color: #1d428a;
+  border-color: #ffc72c;
+  border-width: 2px;
+  border-style: solid;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:hover {
+  color: #1d428a;
+  background-color: #ffc72c;
+  border-color: #1d428a;
+}
+
+.weak {
+  font-weight: 100;
+}
+
 /*Footer*/
 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #26282a;
+  background-color: #181818;
   color: white;
   padding: 1vh;
 }
