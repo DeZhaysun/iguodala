@@ -54,6 +54,18 @@ header {
   color: #ffc72c;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1vh;
+}
+
+.logoImage {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 15px;
+}
+
 /*Section 1*/
 
 .topBanner {
