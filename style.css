@@ -3,14 +3,22 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 /*Header Elements*/
 
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 2vh 20vh;
+  background-color: #26282a;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .headerLinks {
@@ -18,8 +26,54 @@ header {
   gap: 5vh;
 }
 
-a {
+.title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.links {
   text-decoration: none;
+  color: white;
+}
+
+.links:hover {
+  color: #ffc72c;
+}
+
+/*Section 1*/
+
+.topBanner {
+  background-color: #26282a;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 20vh;
+}
+
+#mainImage {
+  height: 50vh;
+  width: auto;
+}
+
+.name {
+  font-size: 9vh;
+  font-weight: bold;
+  max-width: 80vh;
+}
+
+.content {
+  max-width: 80vh;
+  font-size: 2.5vh;
+  font-weight: 100;
+}
+
+/*Section 2*/
+
+.clutch {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Footer*/
@@ -28,4 +82,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #26282a;
+  color: white;
+  padding: 1vh;
 }
