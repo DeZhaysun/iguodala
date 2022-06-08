@@ -11,6 +11,14 @@ a {
   text-decoration: none;
 }
 
+.yellow {
+  color: #ffc72c;
+}
+
+.blue {
+  color: #006bb6;
+}
+
 /*Header Elements*/
 
 header {
@@ -78,7 +86,7 @@ header {
 
 /*Section 2*/
 
-.clutch {
+#clutch {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,6 +127,42 @@ header {
   font-weight: bold;
   font-size: 1.5em;
 }
+
+/*Section 3*/
+
+.quote {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5vh 40vh;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4vh;
+}
+
+.openShot {
+  color: white;
+  font-style: italic;
+  font-size: 2.2em;
+  font-weight: 200;
+}
+
+.max {
+  text-align: right;
+  color: lightgray;
+  align-self: flex-end;
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /*Footer*/
 
 footer {
