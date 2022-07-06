@@ -110,7 +110,8 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5vh 20vh;
+  padding: auto 20vh;
+  height: 80vh;
 }
 
 .clutchTitle {
