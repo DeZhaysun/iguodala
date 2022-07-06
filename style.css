@@ -118,6 +118,8 @@ header {
   font-size: 8vh;
   font-weight: bold;
   color: #1d428a;
+  position: absolute;
+  top: 85vh;
 }
 
 .playImage {
